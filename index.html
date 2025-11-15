@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Типографія</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #222;
+            background: #fafafa;
+        }
+
+        header {
+            padding: 20px;
+            background: #fff;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        header nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #222;
+        }
+
+        .hero {
+            padding: 80px 20px;
+            text-align: center;
+            background: #f0f0f0;
+        }
+
+        .hero h1 {
+            margin-bottom: 10px;
+            font-size: 36px;
+        }
+
+        .hero p {
+            max-width: 500px;
+            margin: 0 auto 20px;
+            font-size: 18px;
+        }
+
+        .hero button {
+            padding: 12px 24px;
+            font-size: 16px;
+            border: none;
+            background: #222;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .services {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .services h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .service-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-item {
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .contact {
+            padding: 60px 20px;
+            background: #fff;
+            border-top: 1px solid #ddd;
+            text-align: center;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Типографія MiniPrint</div>
+        <nav>
+            <a href="#services">Послуги</a>
+            <a href="#contact">Контакти</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Швидкий і якісний друк</h1>
+        <p>Візитівки, листівки, банери, наклейки та інша поліграфія для бізнесу і дому.</p>
+        <button>Зробити замовлення</button>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Наші послуги</h2>
+        <div class="service-list">
+            <div class="service-item">Друк візитівок</div>
+            <div class="service-item">Друк листівок</div>
+            <div class="service-item">Широкоформатний друк</div>
+            <div class="service-item">Друк каталогів</div>
+            <div class="service-item">Наклейки та етикетки</div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Контакти</h2>
+        <p>Email: info@miniprint.com</p>
+        <p>Телефон: +380 00 000 0000</p>
+    </section>
+
+    <footer>
+        © MiniPrint 2025
+    </footer>
+</body>
+
+</html>
